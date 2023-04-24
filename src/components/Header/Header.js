@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.nav}>
       <ul>
         <li>
-          <a href="/">Movies</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/tv">TV</a>
